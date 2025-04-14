@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5 Acid Rain</title>
+    <style>
+      body {
+        margin: 0;
+        background: #0b2429;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 300px;
+      }
+      div {
+        width: 120px;
+        height: 120px;
+        border-radius: 50% 0 50% 50%;
+        background: #998235;
+      }
+      .first {
+        transform: translate(60px, 60px);
+        background: #f3ac3c;
+      }
+      .third {
+        background: #f3ac3c;
+        transform: translate(-60px, -60px);
+        border-radius: 50%;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first"></div>
+    <div></div>
+    <div class="third"></div>
+  </body>
+</html>
